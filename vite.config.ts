@@ -7,5 +7,5 @@ export default defineConfig({
   build: {
     outDir: 'build', // Change output directory to `build`
   },
-  base:'/<portfolio/',
+  base:'/portfolio/',
 })
