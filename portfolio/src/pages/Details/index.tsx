@@ -1,11 +1,11 @@
 import { Footer } from "../../components/footer";
 import { Header } from "../../components/header";
 
-export function Home() {
+export function Details() {
     return (
         <>
             <Header />
-            <h1>Home Page</h1>
+            <h1>Details Page</h1>
             <Footer />
         </>
     );
