@@ -21,23 +21,31 @@ export function Header() {
                 {/* Desktop Menu */}
                 <ul className="hidden lg:flex gap-8 items-center text-[18px]">
                     <li>
-                        <Link to="/portfolio/">Home</Link>
+                        <Link to="/portfolio/" className="hover:font-semibold">
+                            Home
+                        </Link>
                     </li>
                     <li>
-                        <Link to="/portfolio/">Projects</Link>
+                        <Link to="/portfolio/" className="hover:font-semibold">
+                            Projects
+                        </Link>
                     </li>
                     <li>
-                        <Link to="/portfolio/about">About me</Link>
+                        <Link to="/portfolio/about" className="hover:font-semibold">
+                            About me
+                        </Link>
                     </li>
                     <li>
-                        <Link to="/portfolio/contact">Contact me</Link>
+                        <Link to="/portfolio/contact" className="hover:font-semibold">
+                            Contact me
+                        </Link>
                     </li>
                     <li>
                         <Link
                             to="https://drive.google.com/file/d/1bYtF3hXwOA7z8UsCEFT9wETv-niPyQG9/view?usp=drive_link"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex gap-1 border border-text-dark px-6 py-3 rounded-sm"
+                            className="flex gap-1 border border-text-dark px-6 py-3 rounded-sm hover:font-semibold"
                         >
                             Curriculum <File size={24} />
                         </Link>
