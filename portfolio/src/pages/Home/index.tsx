@@ -17,8 +17,8 @@ export function Home() {
                     <p className="text-xl text-center">UX/UI Designer & Front-end Developer</p>
                 </section>
 
-                {/* Card Grid Section */}
-                <section className="w-full 2xl:max-w-[1440px] lg:max-w-[1318px] m-auto mb-24">
+                {/* Projects Grid Section */}
+                <section id="projects" className="w-full 2xl:max-w-[1440px] lg:max-w-[1318px] m-auto mb-24">
                     <div className="grid grid-cols-2 grid-flow-row gap-8">
                         {/* Card */}
                         <Link to="#" className="flex flex-col gap-4 justify-start group transition-all duration-300">

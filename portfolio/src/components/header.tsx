@@ -26,7 +26,7 @@ export function Header() {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/portfolio/" className="hover:font-semibold">
+                        <Link to="/portfolio/#projects" className="hover:font-semibold">
                             Projects
                         </Link>
                     </li>
