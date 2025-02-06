@@ -8,10 +8,14 @@ export function About() {
             <Header />
             <div className="flex-grow">
                 {/* Hero Section */}
-                <section className="flex items-start justify-between mt-12 mb-24 mx-auto w-full 2xl:max-w-[1440px] lg:max-w-[1218px]">
-                    <div className="flex flex-col gap-8 max-w-[750px]">
-                        <h1 className="text-5xl text-start font-semibold mb-2">A little bit about me</h1>
-                        <p className="text-xl text-start">
+                <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-6 mt-4 sm:mt-12 mb-24 mx-auto w-full px-4 sm:px-8 2xl:max-w-[1440px] lg:max-w-[1218px]">
+                    {/* Image appears first on mobile */}
+                    <img src={profile} alt="Vinny Profile" className="w-48 sm:w-48 md:w-60 lg:w-72 " />
+
+                    {/* Text Content */}
+                    <div className="flex flex-col gap-8 max-w-[750px] mt-6 md:mt-0 md:ml-8">
+                        <h1 className="text-3xl sm:text-4xl md:text-5xl text-center md:text-start font-semibold mb-2">A little bit about me</h1>
+                        <p className="text-base sm:text-lg md:text-xl text-center md:text-start">
                             Com uma sólida formação em Sistemas de Informação, tracei uma trajetória de três anos no setor de Tecnologia da Informação,
                             destacando-me como professor e desenvolvedor front-end/back-end, entregando produtos de qualidade excepcional. Atualmente, direciono
                             minha expertise para o campo de UX/UI e design de produtos, acumulando mais de 2 anos de experiência sólida e bem-sucedida nessa
@@ -28,40 +32,46 @@ export function About() {
                             expertise e dedicação contínua para impulsionar o sucesso de projetos desafiadores e envolventes no futuro.
                         </p>
                     </div>
-                    <img src={profile} alt="Vinny Profile" />
                 </section>
 
                 {/* Design Process Section */}
-                <section className="flex flex-col items-start justify-between mt-12 mb-24 mx-auto w-full 2xl:max-w-[1440px] lg:max-w-[1218px] gap-8">
-                    <h1 className="text-5xl text-start font-semibold mb-2">My design process</h1>
-                    <div className="grid grid-cols-2 gap-24">
+                <section className="flex flex-col items-start justify-between mt-12 mb-24 mx-auto w-full px-4 sm:px-8 2xl:max-w-[1440px] lg:max-w-[1218px] gap-8">
+                    {/* Title */}
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl text-center md:text-start font-semibold mb-2">My design process</h1>
+
+                    {/* Content Grid */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 md:gap-24">
+                        {/* Strategy Blocks */}
                         <div className="flex flex-col gap-4 justify-start">
-                            <h6 className="text-2xl text-start font-semibold mb-2">Estratégia</h6>
-                            <p>
+                            <h6 className="text-xl sm:text-2xl text-center md:text-start font-semibold mb-2">Estratégia</h6>
+                            <p className="text-center md:text-start">
                                 <span className="font-semibold">Empatize, defina e Idealize.</span> Antes de pensar em qualquer solução é substancial entender o
                                 universo que engloba o projeto e quais são os seus desafios. Para isso é necessário a realização de pesquisas, verificação de
                                 cenário, criação de personas e análise de soluções.
                             </p>
                         </div>
+
                         <div className="flex flex-col gap-4 justify-start">
-                            <h6 className="text-2xl text-start font-semibold mb-2">Estratégia</h6>
-                            <p>
+                            <h6 className="text-xl sm:text-2xl text-center md:text-start font-semibold mb-2">Estratégia</h6>
+                            <p className="text-center md:text-start">
                                 <span className="font-semibold">Empatize, defina e Idealize.</span> Antes de pensar em qualquer solução é substancial entender o
                                 universo que engloba o projeto e quais são os seus desafios. Para isso é necessário a realização de pesquisas, verificação de
                                 cenário, criação de personas e análise de soluções.
                             </p>
                         </div>
+
                         <div className="flex flex-col gap-4 justify-start">
-                            <h6 className="text-2xl text-start font-semibold mb-2">Estratégia</h6>
-                            <p>
+                            <h6 className="text-xl sm:text-2xl text-center md:text-start font-semibold mb-2">Estratégia</h6>
+                            <p className="text-center md:text-start">
                                 <span className="font-semibold">Empatize, defina e Idealize.</span> Antes de pensar em qualquer solução é substancial entender o
                                 universo que engloba o projeto e quais são os seus desafios. Para isso é necessário a realização de pesquisas, verificação de
                                 cenário, criação de personas e análise de soluções.
                             </p>
                         </div>
+
                         <div className="flex flex-col gap-4 justify-start">
-                            <h6 className="text-2xl text-start font-semibold mb-2">Estratégia</h6>
-                            <p>
+                            <h6 className="text-xl sm:text-2xl text-center md:text-start font-semibold mb-2">Estratégia</h6>
+                            <p className="text-center md:text-start">
                                 <span className="font-semibold">Empatize, defina e Idealize.</span> Antes de pensar em qualquer solução é substancial entender o
                                 universo que engloba o projeto e quais são os seus desafios. Para isso é necessário a realização de pesquisas, verificação de
                                 cenário, criação de personas e análise de soluções.
