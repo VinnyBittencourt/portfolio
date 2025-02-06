@@ -8,7 +8,7 @@ export function About() {
             <Header />
             <div className="flex-grow">
                 {/* Hero Section */}
-                <section className="flex items-start justify-between mt-12 mb-24 mx-auto w-full 2xl:max-w-[1440px] lg:max-w-[1318px]">
+                <section className="flex items-start justify-between mt-12 mb-24 mx-auto w-full 2xl:max-w-[1440px] lg:max-w-[1218px]">
                     <div className="flex flex-col gap-8 max-w-[750px]">
                         <h1 className="text-5xl text-start font-semibold mb-2">A little bit about me</h1>
                         <p className="text-xl text-start">
@@ -32,7 +32,7 @@ export function About() {
                 </section>
 
                 {/* Design Process Section */}
-                <section className="flex flex-col items-start justify-between mt-12 mb-24 mx-auto w-full 2xl:max-w-[1440px] lg:max-w-[1318px] gap-8">
+                <section className="flex flex-col items-start justify-between mt-12 mb-24 mx-auto w-full 2xl:max-w-[1440px] lg:max-w-[1218px] gap-8">
                     <h1 className="text-5xl text-start font-semibold mb-2">My design process</h1>
                     <div className="grid grid-cols-2 gap-24">
                         <div className="flex flex-col gap-4 justify-start">

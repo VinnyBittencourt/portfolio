@@ -11,7 +11,7 @@ export function Header() {
     };
     return (
         <div className="w-full">
-            <div className="2xl:max-w-[1440px] lg:max-w-[1318px] m-auto flex justify-between items-center py-8 px-4 lg:px-0">
+            <div className="2xl:max-w-[1440px] lg:max-w-[1218px] m-auto flex justify-between items-center py-8 px-4 lg:px-0">
                 <img src={Logo} alt="portfolio-logo" />
                 {/* Hamburger Icon */}
                 <button className="lg:hidden text-black focus:outline-none" onClick={toggleMenu}>
