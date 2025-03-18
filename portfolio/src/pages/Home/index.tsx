@@ -124,13 +124,13 @@ export function Home() {
                 </section>
 
                 {/* Academic Section */}
-                <section className="flex flex-col gap-12 items-center justify-center mb-24 px-4">
+                <section className="flex flex-col gap-12 items-center justify-center mb-24 px-4 w-full max-w-[1024px] mx-auto">
                     <h3 className="text-4xl font-semibold text-left md:text-center w-full">Academic training</h3>
-                    <div className="grid gap-4 sm:gap-8 grid-cols-1 sm:grid-cols-4 mx-auto sm:px-0">
+                    <div className="grid gap-4 sm:gap-8 grid-cols-1 sm:grid-cols-4 w-full">
                         {/* Academic Card */}
-                        <div className="flex rounded border border-(--border-color) bg-white gap-3 p-4 sm:max-w-[200px]">
+                        <div className="flex rounded border border-(--border-color) bg-white gap-3 p-4 w-full">
                             <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px] rounded-md" />
-                            <div className="flex flex-col gap-4 w-full">
+                            <div className="flex flex-col gap-4 w-full justify-between">
                                 <p>
                                     <span className="font-semibold">Google</span>
                                     <span> | Coursera UX Designer Professional Certificate</span>
@@ -139,9 +139,9 @@ export function Home() {
                             </div>
                         </div>
 
-                        <div className="flex rounded border border-(--border-color) bg-white gap-3 p-4 sm:max-w-[200px]">
+                        <div className="flex rounded border border-(--border-color) bg-white gap-3 p-4 w-full">
                             <img src={unicornio} alt="Logo unicornio" className="w-[24px] h-[24px] rounded-md" />
-                            <div className="flex flex-col gap-4 w-full">
+                            <div className="flex flex-col gap-4 w-full justify-between">
                                 <p>
                                     <span className="font-semibold">UX Unicórnio</span>
                                     <span> | UX/UI & Product Designer</span>
@@ -149,25 +149,25 @@ export function Home() {
                                 <p className="text-(--text-light)">Dezembro 2021</p>
                             </div>
                         </div>
-                        <div className="flex rounded border border-(--border-color) bg-white gap-3 p-4 sm:max-w-[200px]">
+
+                        <div className="flex rounded border border-(--border-color) bg-white gap-3 p-4 w-full">
                             <img src={meiuca} alt="Logo meiuca" className="w-[24px] h-[24px] rounded-md" />
-                            <div className="flex flex-col gap-4 w-full">
+                            <div className="flex flex-col gap-4 w-full justify-between">
                                 <p>
                                     <span className="font-semibold">Meiuca</span>
                                     <span> | Design System Specialist</span>
                                 </p>
-
                                 <p className="text-(--text-light)">Fevereiro 2022</p>
                             </div>
                         </div>
-                        <div className="flex rounded border border-(--border-color) bg-white gap-3 p-4 sm:max-w-[200px]">
+
+                        <div className="flex rounded border border-(--border-color) bg-white gap-3 p-4 w-full">
                             <img src={unifoa} alt="Logo unifoa" className="w-[24px] h-[24px] rounded-md" />
-                            <div className="flex flex-col gap-4 w-full">
+                            <div className="flex flex-col gap-4 w-full justify-between">
                                 <p>
                                     <span className="font-semibold">UniFOA</span>
                                     <span> | Bacharelado em Sistemas de Informação</span>
                                 </p>
-
                                 <p className="text-(--text-light)">2016 ~ 2020</p>
                             </div>
                         </div>
