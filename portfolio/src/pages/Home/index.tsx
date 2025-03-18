@@ -155,39 +155,39 @@ export function Home() {
                 {/* Tools */}
                 <section className="flex flex-col gap-12 items-center justify-center mb-24">
                     <h3 className="text-4xl font-semibold">Tools</h3>
-                    <div className="grid gap-4 sm:gap-8 grid-cols-1 sm:grid-cols-3 mx-auto px-4 sm:px-0 w-full">
+                    <div className="grid gap-4 sm:gap-8 grid-cols-1 sm:grid-cols-3 mx-auto px-4 sm:px-0 w-screen">
                         {/* Academic Card */}
-                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 sm:w-[300px]">
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
                             <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
                                 <p className="">Figma</p>
                             </div>
                         </div>
-                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 sm:w-[300px]">
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
                             <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
                                 <p className="">Figma</p>
                             </div>
                         </div>
-                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 sm:w-[300px]">
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
                             <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
                                 <p className="">Figma</p>
                             </div>
                         </div>
-                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 sm:w-[300px]">
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
                             <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
                                 <p className="">Figma</p>
                             </div>
                         </div>
-                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 sm:w-[300px]">
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
                             <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
                                 <p className="">Figma</p>
                             </div>
                         </div>
-                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 sm:w-[300px]">
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
                             <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
                                 <p className="">Figma</p>
@@ -197,43 +197,41 @@ export function Home() {
                 </section>
 
                 {/* Skills Section */}
-                {/* Tools */}
-
                 <section className="flex flex-col gap-12 items-center justify-center mb-24">
                     <h3 className="text-4xl font-semibold">Skills</h3>
-                    <div className="grid gap-4 sm:gap-8 grid-cols-1 sm:grid-cols-3 mx-auto px-4 sm:px-0">
+                    <div className="grid gap-4 sm:gap-8 grid-cols-1 sm:grid-cols-3 mx-auto px-4 sm:px-0 w-screen">
                         {/* Academic Card */}
-                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 sm:w-[300px]">
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
                             <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
                                 <p className="">Design Thinking</p>
                             </div>
                         </div>
-                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 sm:w-[300px]">
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
                             <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
                                 <p className="">Design Thinking</p>
                             </div>
                         </div>
-                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 sm:w-[300px]">
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
                             <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
                                 <p className="">Design Thinking</p>
                             </div>
                         </div>
-                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 sm:w-[300px]">
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
                             <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
                                 <p className="">Design Thinking</p>
                             </div>
                         </div>
-                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 sm:w-[300px]">
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
                             <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
                                 <p className="">Design Thinking</p>
                             </div>
                         </div>
-                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 sm:w-[300px]">
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
                             <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
                                 <p className="">Design Thinking</p>
