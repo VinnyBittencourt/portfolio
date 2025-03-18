@@ -1,7 +1,25 @@
 import { Footer } from "../../components/footer";
 import { Header } from "../../components/header";
 import igulogo from "../../assets/thumb_igu.jpeg";
-import { ArrowUpRight } from "react-feather";
+import adobexd from "../../assets/icons/adobexd.png";
+import azure from "../../assets/icons/azure.png";
+import firebase from "../../assets/icons/firebase.png";
+import googleanal from "../../assets/icons/googleanal.png";
+import hotjar from "../../assets/icons/hotjar.png";
+import illustrator from "../../assets/icons/illustrator.png";
+import afftereffec from "../../assets/icons/aftereffe.png";
+import maze from "../../assets/icons/maze.png";
+import meiuca from "../../assets/icons/meiuca.png";
+import miro from "../../assets/icons/miro.png";
+import notion from "../../assets/icons/notion.png";
+import photoshop from "../../assets/icons/photoshop.png";
+import similianweb from "../../assets/icons/similiarweb.png";
+import trell from "../../assets/icons/trell.png";
+import unicornio from "../../assets/icons/unicornio.png";
+import unifoa from "../../assets/icons/unifoa.png";
+import usebe from "../../assets/icons/usebe.png";
+import figma from "../../assets/icons/figma.png";
+import { ArrowUpRight, Check } from "react-feather";
 import { Link } from "react-router-dom";
 import logoGoog from "../../assets/icon_google-removebg-preview.png";
 
@@ -11,10 +29,10 @@ export function Home() {
             <Header />
             <div className="flex-grow">
                 {/* Hero Section */}
-                <section className="flex flex-col items-center justify-center max-w-[960px] mx-auto gap-4 mt-12 mb-24 px-4 sm:px-0">
-                    <span className="text-xl text-center tracking-wider">Hello, I’m Vinny Bittencourt</span>
-                    <h1 className="text-4xl sm:text-7xl text-center font-semibold mb-2">I Build Captivating Web Experiences</h1>
-                    <p className="text-xl text-center">UX/UI Designer & Front-end Developer</p>
+                <section className="flex flex-col items-start md:items-center  justify-start md:justify-center max-w-[960px] mx-auto gap-4 mt-12 mb-24 px-4 sm:px-0">
+                    <span className="text-xl text-left md:text-center tracking-wider">Hello, I’m Vinny Bittencourt</span>
+                    <h1 className="text-4xl sm:text-7xl text-left md:text-center font-semibold mb-2">I Build Captivating Web Experiences</h1>
+                    <p className="text-xl text-start md:text-center">UX/UI Designer & Front-end Developer</p>
                 </section>
 
                 {/* Projects Grid Section */}
@@ -93,23 +111,25 @@ export function Home() {
                             </div>
                         </Link>
                     </div>
-                    <Link
-                        to="https://drive.google.com/file/d/1bYtF3hXwOA7z8UsCEFT9wETv-niPyQG9/view?usp=drive_link"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex gap-1 bg-(--brand-default) text-white px-6 py-3 rounded-sm hover:font-semibold shadow-(--container-shadow)"
-                    >
-                        View More Work
-                    </Link>
+                    <div className="w-full px-4">
+                        <Link
+                            to="https://drive.google.com/file/d/1bYtF3hXwOA7z8UsCEFT9wETv-niPyQG9/view?usp=drive_link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex text-center items-center justify-center gap-1 bg-(--brand-default) w-full md:w-fit-content text-white px-6 py-3 rounded-sm hover:font-semibold shadow-(--container-shadow)"
+                        >
+                            View More Work
+                        </Link>
+                    </div>
                 </section>
 
                 {/* Academic Section */}
-                <section className="flex flex-col gap-12 items-center justify-center mb-24">
-                    <h3 className="text-4xl font-semibold">Academic training</h3>
-                    <div className="grid gap-4 sm:gap-8 grid-cols-1 sm:grid-cols-4 mx-auto px-4 sm:px-0">
+                <section className="flex flex-col gap-12 items-center justify-center mb-24 px-4">
+                    <h3 className="text-4xl font-semibold text-left md:text-center w-full">Academic training</h3>
+                    <div className="grid gap-4 sm:gap-8 grid-cols-1 sm:grid-cols-4 mx-auto sm:px-0">
                         {/* Academic Card */}
                         <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 sm:max-w-[200px]">
-                            <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
+                            <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px] rounded-md" />
                             <div className="flex flex-col gap-4 w-full">
                                 <p>
                                     <span className="font-semibold">Google</span>
@@ -120,121 +140,219 @@ export function Home() {
                         </div>
 
                         <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 sm:max-w-[200px]">
-                            <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
+                            <img src={unicornio} alt="Logo unicornio" className="w-[24px] h-[24px] rounded-md" />
                             <div className="flex flex-col gap-4 w-full">
                                 <p>
-                                    <span className="font-semibold">Google</span>
-                                    <span> | Coursera UX Designer Professional Certificate</span>
+                                    <span className="font-semibold">UX Unicórnio</span>
+                                    <span> | UX/UI & Product Designer</span>
                                 </p>
-                                <p className="text-(--text-light)">Fevereiro 2023</p>
+                                <p className="text-(--text-light)">Dezembro 2021</p>
                             </div>
                         </div>
                         <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 sm:max-w-[200px]">
-                            <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
+                            <img src={meiuca} alt="Logo meiuca" className="w-[24px] h-[24px] rounded-md" />
                             <div className="flex flex-col gap-4 w-full">
                                 <p>
-                                    <span className="font-semibold">Google</span>
-                                    <span> | Coursera UX Designer Professional Certificate</span>
+                                    <span className="font-semibold">Meiuca</span>
+                                    <span> | Design System Specialist</span>
                                 </p>
-                                <p className="text-(--text-light)">Fevereiro 2023</p>
+
+                                <p className="text-(--text-light)">Fevereiro 2022</p>
                             </div>
                         </div>
                         <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 sm:max-w-[200px]">
-                            <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
+                            <img src={unifoa} alt="Logo unifoa" className="w-[24px] h-[24px] rounded-md" />
                             <div className="flex flex-col gap-4 w-full">
                                 <p>
-                                    <span className="font-semibold">Google</span>
-                                    <span> | Coursera UX Designer Professional Certificate</span>
+                                    <span className="font-semibold">UniFOA</span>
+                                    <span> | Bacharelado em Sistemas de Informação</span>
                                 </p>
-                                <p className="text-(--text-light)">Fevereiro 2023</p>
+
+                                <p className="text-(--text-light)">2016 ~ 2020</p>
                             </div>
                         </div>
                     </div>
                 </section>
 
                 {/* Tools */}
-                <section className="flex flex-col gap-12 items-center justify-center mb-24">
-                    <h3 className="text-4xl font-semibold">Tools</h3>
-                    <div className="grid gap-4 sm:gap-8 grid-cols-1 sm:grid-cols-3 mx-auto px-4 sm:px-0 w-screen">
+                <section className="flex flex-col gap-12 items-center justify-center mb-24 px-4">
+                    <h3 className="text-4xl font-semibold text-left md:text-center w-full">Tools</h3>
+                    <div className="grid gap-4 sm:gap-8 grid-cols-1 sm:grid-cols-3 mx-auto  sm:px-0 max-w-screen-lg place-items-center w-full">
                         {/* Academic Card */}
                         <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
-                            <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
+                            <img src={figma} alt="Logo Figma" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
                                 <p className="">Figma</p>
                             </div>
                         </div>
                         <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
-                            <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
+                            <img src={adobexd} alt="Logo Adobe XD" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
-                                <p className="">Figma</p>
+                                <p className="">Adobe XD</p>
                             </div>
                         </div>
                         <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
-                            <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
+                            <img src={miro} alt="Logo Miro" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
-                                <p className="">Figma</p>
+                                <p className="">Miro</p>
                             </div>
                         </div>
                         <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
-                            <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
+                            <img src={notion} alt="Logo Notion" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
-                                <p className="">Figma</p>
+                                <p className="">Notion</p>
                             </div>
                         </div>
                         <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
-                            <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
+                            <img src={hotjar} alt="Logo Hotjar" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
-                                <p className="">Figma</p>
+                                <p className="">Hotjar</p>
                             </div>
                         </div>
                         <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
-                            <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
+                            <img src={googleanal} alt="Logo Google Analytics" className="w-[24px] h-[24px]" />
                             <div className="flex flex-col gap-4 w-full">
-                                <p className="">Figma</p>
+                                <p className="">Google Analytics</p>
+                            </div>
+                        </div>
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
+                            <img src={maze} alt="Logo Maze.co" className="w-[24px] h-[24px]" />
+                            <div className="flex flex-col gap-4 w-full">
+                                <p className="">Maze.co</p>
+                            </div>
+                        </div>
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
+                            <img src={usebe} alt="Logo Useberry" className="w-[24px] h-[24px]" />
+                            <div className="flex flex-col gap-4 w-full">
+                                <p className="">Useberry</p>
+                            </div>
+                        </div>
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
+                            <img src={trell} alt="Logo Trello" className="w-[24px] h-[24px]" />
+                            <div className="flex flex-col gap-4 w-full">
+                                <p className="">Trello</p>
+                            </div>
+                        </div>
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
+                            <img src={azure} alt="Logo Microsoft Azure" className="w-[24px] h-[24px]" />
+                            <div className="flex flex-col gap-4 w-full">
+                                <p className="">Microsoft Azure</p>
+                            </div>
+                        </div>
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
+                            <img src={similianweb} alt="Logo Similarweb" className="w-[24px] h-[24px]" />
+                            <div className="flex flex-col gap-4 w-full">
+                                <p className="">Similarweb</p>
+                            </div>
+                        </div>
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
+                            <img src={firebase} alt="Logo Firebase" className="w-[24px] h-[24px]" />
+                            <div className="flex flex-col gap-4 w-full">
+                                <p className="">Firebase</p>
+                            </div>
+                        </div>
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
+                            <img src={photoshop} alt="Logo Adobe Photoshop" className="w-[24px] h-[24px]" />
+                            <div className="flex flex-col gap-4 w-full">
+                                <p className="">Adobe Photoshop</p>
+                            </div>
+                        </div>
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
+                            <img src={illustrator} alt="Logo Adobe Illustrator" className="w-[24px] h-[24px]" />
+                            <div className="flex flex-col gap-4 w-full">
+                                <p className="">Adobe Illustrator</p>
+                            </div>
+                        </div>
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
+                            <img src={afftereffec} alt="Logo Adobe After Effects" className="w-[24px] h-[24px]" />
+                            <div className="flex flex-col gap-4 w-full">
+                                <p className="">Adobe After Effects</p>
                             </div>
                         </div>
                     </div>
                 </section>
 
                 {/* Skills Section */}
-                <section className="flex flex-col gap-12 items-center justify-center mb-24">
-                    <h3 className="text-4xl font-semibold">Skills</h3>
-                    <div className="grid gap-4 sm:gap-8 grid-cols-1 sm:grid-cols-3 mx-auto px-4 sm:px-0 w-screen">
+                <section className="flex flex-col gap-12 items-center justify-center mb-24 px-4 ">
+                    <h3 className="text-4xl font-semibold text-left md:text-center w-full">Skills</h3>
+                    <div className="grid gap-4 sm:gap-8 grid-cols-1 sm:grid-cols-3 mx-auto sm:px-0 max-w-screen-lg place-items-center w-full">
                         {/* Academic Card */}
                         <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
-                            <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
+                            <Check className="text-(--brand-dark)" size={24} />
                             <div className="flex flex-col gap-4 w-full">
                                 <p className="">Design Thinking</p>
                             </div>
                         </div>
                         <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
-                            <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
+                            <Check className="text-(--brand-dark)" size={24} />
                             <div className="flex flex-col gap-4 w-full">
-                                <p className="">Design Thinking</p>
+                                <p className="">Design Sprint</p>
                             </div>
                         </div>
                         <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
-                            <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
+                            <Check className="text-(--brand-dark)" size={24} />
                             <div className="flex flex-col gap-4 w-full">
-                                <p className="">Design Thinking</p>
+                                <p className="">Double Diamond</p>
                             </div>
                         </div>
                         <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
-                            <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
+                            <Check className="text-(--brand-dark)" size={24} />
                             <div className="flex flex-col gap-4 w-full">
-                                <p className="">Design Thinking</p>
+                                <p className="">Usability Test</p>
                             </div>
                         </div>
                         <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
-                            <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
+                            <Check className="text-(--brand-dark)" size={24} />
                             <div className="flex flex-col gap-4 w-full">
-                                <p className="">Design Thinking</p>
+                                <p className="">UI Design</p>
                             </div>
                         </div>
                         <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
-                            <img src={logoGoog} alt="Logo Google" className="w-[24px] h-[24px]" />
+                            <Check className="text-(--brand-dark)" size={24} />
                             <div className="flex flex-col gap-4 w-full">
-                                <p className="">Design Thinking</p>
+                                <p className="">UX Research</p>
+                            </div>
+                        </div>
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
+                            <Check className="text-(--brand-dark)" size={24} />
+                            <div className="flex flex-col gap-4 w-full">
+                                <p className="">Wireframes</p>
+                            </div>
+                        </div>
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
+                            <Check className="text-(--brand-dark)" size={24} />
+                            <div className="flex flex-col gap-4 w-full">
+                                <p className="">Design System</p>
+                            </div>
+                        </div>
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
+                            <Check className="text-(--brand-dark)" size={24} />
+                            <div className="flex flex-col gap-4 w-full">
+                                <p className="">Data Analysis</p>
+                            </div>
+                        </div>
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
+                            <Check className="text-(--brand-dark)" size={24} />
+                            <div className="flex flex-col gap-4 w-full">
+                                <p className="">Prototyping</p>
+                            </div>
+                        </div>
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
+                            <Check className="text-(--brand-dark)" size={24} />
+                            <div className="flex flex-col gap-4 w-full">
+                                <p className="">SEO</p>
+                            </div>
+                        </div>
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
+                            <Check className="text-(--brand-dark)" size={24} />
+                            <div className="flex flex-col gap-4 w-full">
+                                <p className="">Advanced English</p>
+                            </div>
+                        </div>
+                        <div className="flex rounded border border-(--border-color) bg-white gap-2 p-4 w-full md:w-[300px]">
+                            <Check className="text-(--brand-dark)" size={24} />
+                            <div className="flex flex-col gap-4 w-full">
+                                <p className="">A/B Test</p>
                             </div>
                         </div>
                     </div>
