@@ -10,10 +10,10 @@ export function Contact() {
         <div className="flex flex-col min-h-screen">
             <Header />
             <div className="flex-grow">
-                <section className="flex items-start justify-between mt-12 mb-24 mx-auto w-full 2xl:max-w-[1440px] lg:max-w-[1218px]">
-                    <div className="flex flex-col gap-8 w-full">
+                <section className="flex items-start flex-col md:flex-row justify-between mt-12 mb-24 mx-auto w-full 2xl:max-w-[1440px] lg:max-w-[1218px]">
+                    <div className="flex flex-col gap-8 w-full p-4 md:p-0">
                         <h1 className="text-5xl text-start font-semibold mb-2">Let’s connect!</h1>
-                        <div className="grid grid-cols-2 justify-stretch gap-6 max-w-[474px]">
+                        <div className="grid grid-cols-2 justify-stretch gap-6 max-w-[474px] ">
                             <Link to="#" className="flex rounded-lg shadow-(--container-shadow) bg-white gap-2 p-8 ">
                                 <div className="flex flex-col gap-4 items-center justify-center w-full">
                                     <div className="bg-white rounded-full p-3 shadow-(--container-shadow) size-fit">
