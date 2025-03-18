@@ -2,7 +2,7 @@ import { Footer } from "../../components/footer";
 import { Header } from "../../components/header";
 import backgroundContact from "../../assets/fundo_contact.png";
 import { Dribbble, Linkedin, Mail } from "react-feather";
-import { Link } from "react-router-dom";
+
 import Behance from "../../assets/ant-design_behance-outlined-dark.svg";
 
 export function Contact() {
@@ -14,39 +14,60 @@ export function Contact() {
                     <div className="flex flex-col gap-8 w-full p-4 md:p-0">
                         <h1 className="text-5xl text-start font-semibold mb-2">Let’s connect!</h1>
                         <div className="grid grid-cols-2 justify-stretch gap-6 max-w-[474px] ">
-                            <Link to="#" className="flex rounded-lg shadow-(--container-shadow) bg-white gap-2 p-8 ">
+                            <a
+                                href="mailto:vinisataides@gmail.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex rounded-lg shadow-(--container-shadow) bg-white gap-2 p-8"
+                            >
                                 <div className="flex flex-col gap-4 items-center justify-center w-full">
                                     <div className="bg-white rounded-full p-3 shadow-(--container-shadow) size-fit">
                                         <Mail className="text-(--text-dark)" size={24} />
                                     </div>
-                                    <p className="">@vinisataides</p>
+                                    <p className="">vinisataides@gmail.com</p>
                                 </div>
-                            </Link>
+                            </a>
 
-                            <Link to="#" className="flex rounded-lg shadow-(--container-shadow) bg-white gap-2 p-8 ">
+                            <a
+                                href="https://www.behance.net/viniciusataides"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex rounded-lg shadow-(--container-shadow) bg-white gap-2 p-8"
+                            >
                                 <div className="flex flex-col gap-4 items-center justify-center w-full">
                                     <div className="bg-white rounded-full p-3 shadow-(--container-shadow) size-fit">
                                         <img src={Behance} alt="Behance Logo" className="w-[24px]" />
                                     </div>
-                                    <p className="">@vinisataides</p>
+
+                                    <p className="">@viniciusataides</p>
                                 </div>
-                            </Link>
-                            <Link to="#" className="flex rounded-lg shadow-(--container-shadow) bg-white gap-2 p-8 ">
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/in/vinnybittencourt/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex rounded-lg shadow-(--container-shadow) bg-white gap-2 p-8"
+                            >
                                 <div className="flex flex-col gap-4 items-center justify-center w-full">
                                     <div className="bg-white rounded-full p-3 shadow-(--container-shadow) size-fit">
                                         <Linkedin className="text-(--text-dark)" size={24} />
                                     </div>
-                                    <p className="">@vinisataides</p>
+                                    <p className="">@vinnybittencourt</p>
                                 </div>
-                            </Link>
-                            <Link to="#" className="flex rounded-lg shadow-(--container-shadow) bg-white gap-2 p-8">
+                            </a>
+                            <a
+                                href="https://dribbble.com/VinnyAtaides"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex rounded-lg shadow-(--container-shadow) bg-white gap-2 p-8"
+                            >
                                 <div className="flex flex-col gap-4 items-center justify-center w-full">
-                                    <div className="bg-white rounded-full p-3 shadow-(--container-shadow) size-fit">
-                                        <Dribbble className="text-(--text-dark)" size={24} />
+                                    <div className="bg-white rounded-full p-3 shadow-[--container-shadow] size-fit">
+                                        <Dribbble className="text-[--text-dark]" size={24} />
                                     </div>
-                                    <p className="">@vinisataides</p>
+                                    <p className="">@VinnyAtaides</p>
                                 </div>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <div
