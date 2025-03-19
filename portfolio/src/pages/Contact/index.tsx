@@ -62,8 +62,8 @@ export function Contact() {
                                 className="flex rounded-lg shadow-(--container-shadow) bg-white gap-2 p-8"
                             >
                                 <div className="flex flex-col gap-4 items-center justify-center w-full">
-                                    <div className="bg-white rounded-full p-3 shadow-[--container-shadow] size-fit">
-                                        <Dribbble className="text-[--text-dark]" size={24} />
+                                    <div className="bg-white rounded-full p-3 shadow-(--container-shadow) size-fit">
+                                        <Dribbble className="text-(--text-dark)" size={24} />
                                     </div>
                                     <p className="">@VinnyAtaides</p>
                                 </div>
