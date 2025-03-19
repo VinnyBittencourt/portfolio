@@ -7,11 +7,13 @@ export function Footer() {
     return (
         <div className="w-full bg-(--background-color-dark-dark)">
             <div className="2xl:max-w-[1440px] lg:max-w-[1218px] flex-col lg:flex-row  m-auto flex justify-between items-start pt-8 pb-12 lg:pb-24 px-4 lg:px-0 gap-12 lg:gap-0">
-                <img src={Logo} alt="portfolio-logo" />
+                <Link to="/portfolio/">
+                    <img src={Logo} alt="portfolio-logo" />
+                </Link>
                 <div className="flex gap-12 lg:gap-24 flex-col lg:flex-row ">
                     <ul className="flex text-white flex-col gap-4">
                         <li>
-                            <Link to="/portfolio/" className="hover:font-semibold">
+                            <Link to="/portfolio/projects" className="hover:font-semibold">
                                 Projects
                             </Link>
                         </li>

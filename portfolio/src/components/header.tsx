@@ -12,7 +12,9 @@ export function Header() {
     return (
         <div className="w-full">
             <div className="2xl:max-w-[1440px] lg:max-w-[1218px] m-auto flex justify-between items-center py-8 px-4 lg:px-0">
-                <img src={Logo} alt="portfolio-logo" />
+                <Link to="/portfolio/">
+                    <img src={Logo} alt="portfolio-logo" />
+                </Link>
                 {/* Hamburger Icon */}
                 <button className="lg:hidden text-black focus:outline-none" onClick={toggleMenu}>
                     {isMenuOpen ? <X size={32} /> : <List size={32} />}
@@ -26,7 +28,7 @@ export function Header() {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/portfolio/#projects" className="hover:font-semibold">
+                        <Link to="/portfolio/projects" className="hover:font-semibold">
                             Projects
                         </Link>
                     </li>
@@ -64,7 +66,7 @@ export function Header() {
                             </Link>
                         </li>
                         <li className="py-4">
-                            <Link to="/portfolio/" onClick={toggleMenu}>
+                            <Link to="/portfolio/projects" onClick={toggleMenu}>
                                 Projects
                             </Link>
                         </li>
