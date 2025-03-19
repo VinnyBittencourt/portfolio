@@ -113,9 +113,7 @@ export function Home() {
                     </div>
                     <div className="w-full flex items-center justify-center  px-4">
                         <Link
-                            to="https://drive.google.com/file/d/1bYtF3hXwOA7z8UsCEFT9wETv-niPyQG9/view?usp=drive_link"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            to="/portfolio/projects"
                             className="flex mx-auto text-center items-center justify-center gap-1 bg-(--brand-default) w-full md:w-[200px] text-white px-6 py-3 rounded-sm hover:font-semibold shadow-(--container-shadow)"
                         >
                             View More Work

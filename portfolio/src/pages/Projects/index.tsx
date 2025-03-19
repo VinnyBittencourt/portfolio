@@ -10,10 +10,10 @@ export function Projects() {
             <Header />
             <div className="flex-grow">
                 <section id="projects" className="w-full 2xl:max-w-[1440px] lg:max-w-[1218px] m-auto mt-12 mb-24  flex items-center flex-col gap-12">
-                    <h3 className="text-5xl font-semibold text-left w-full px-4">Academic training</h3>
+                    <h3 className="text-5xl font-semibold text-left w-full px-4 md:px-0">My Work</h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 grid-flow-row gap-8 px-4 sm:px-0">
                         {/* Card */}
-                        <Link to="#" className="flex flex-col gap-4 justify-start group transition-all duration-300">
+                        <Link to="/portfolio/projects/igu" className="flex flex-col gap-4 justify-start group transition-all duration-300">
                             <img src={igulogo} alt="logo" className="rounded-xl shadow-(--container-shadow)" />
                             <div className="flex justify-between items-center pr-1">
                                 <div className="flex flex-col gap-1">
