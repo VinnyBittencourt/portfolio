@@ -9,7 +9,7 @@ export function Projects() {
         <div className="flex flex-col min-h-screen">
             <Header />
             <div className="flex-grow">
-                <section id="projects" className="w-full 2xl:max-w-[1440px] lg:max-w-[1218px] m-auto mt-12 mb-24  flex items-center flex-col gap-12">
+                <section className="w-full 2xl:max-w-[1440px] lg:max-w-[1218px] m-auto mt-12 mb-24  flex items-center flex-col gap-12">
                     <h3 className="text-5xl font-semibold text-left w-full px-4 md:px-0">My Work</h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 grid-flow-row gap-8 px-4 sm:px-0">
                         {/* Card */}
