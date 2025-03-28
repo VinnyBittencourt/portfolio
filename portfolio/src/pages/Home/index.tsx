@@ -74,7 +74,7 @@ export function Home() {
                                         <p className="px-2 py-0.5 bg-indigo-200  rounded text-sm text-nowrap">User Testing</p>
                                         <p className="px-2 py-0.5 bg-gray-200  rounded text-sm text-nowrap">Freelance</p>
                                     </div>
-                                    <h5 className="text-3xl font-semibold">FutGPT - Sports Betting AI</h5>
+                                    <h5 className="text-3xl font-semibold">FutGPT</h5>
                                     <span>Betting, Sports, Finances, AI</span>
                                 </div>
                                 <ArrowUpRight
@@ -95,7 +95,7 @@ export function Home() {
                                         <p className="px-2 py-0.5 bg-indigo-200  rounded text-sm text-nowrap">User Testing</p>
                                         <p className="px-2 py-0.5 bg-green-200  rounded text-sm text-nowrap">Mapping</p>
                                     </div>
-                                    <h5 className="text-3xl font-semibold">Minuta Digital - Logistical control</h5>
+                                    <h5 className="text-3xl font-semibold">Minuta Digital</h5>
                                     <span>Logistics</span>
                                 </div>
                                 <ArrowUpRight
@@ -116,7 +116,7 @@ export function Home() {
                                         <p className="px-2 py-0.5 bg-indigo-200  rounded text-sm text-nowrap">User Testing</p>
                                         <p className="px-2 py-0.5 bg-green-200  rounded text-sm text-nowrap">Mapping</p>
                                     </div>
-                                    <h5 className="text-3xl font-semibold">Box monitoring</h5>
+                                    <h5 className="text-3xl font-semibold">Dock Monitoring</h5>
                                     <span>Logistics</span>
                                 </div>
                                 <ArrowUpRight
