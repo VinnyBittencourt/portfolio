@@ -10,6 +10,7 @@ import { FutgptProject } from "./pages/ProjectDetails/Futgpt";
 import { ConsultaDadosProject } from "./pages/ProjectDetails/ConsultaDados";
 import { AcompanhaPedidosProject } from "./pages/ProjectDetails/AcompanhamentoPedidos";
 import { Projects } from "./pages/Projects";
+import { NotFoundPage } from "./pages/NotFoundPage";
 
 export function Router() {
     return (
@@ -26,7 +27,7 @@ export function Router() {
                 <Route path="/portfolio/projects/MinutaDigital" element={<MinutaDigitalProject />} />
                 <Route path="/portfolio/projects/MonitoramentoBox" element={<MonitoramentoBoxProject />} />
                 <Route path="/portfolio/projects" element={<Projects />} />
-                {/* <Route path="*" element={<NotFoundPage />} /> */}
+                <Route path="*" element={<NotFoundPage />} />
             </Routes>
         </>
     );

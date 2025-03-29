@@ -15,10 +15,11 @@ export function About() {
                     {/* Text Content */}
                     <div className="flex flex-col gap-8 max-w-[750px] mt-6 md:mt-0 md:ml-8">
                         <h1 className="text-3xl sm:text-4xl md:text-5xl w-full text-start  font-semibold mb-2">A little bit about me</h1>
-                        <p className="text-base sm:text-lg md:text-xl text-start ">
+                        <p className="text-base   text-start ">
                             With a solid background in Information Systems, I have built a three-year career in the Information Technology sector, excelling as
                             a professor and front-end/back-end developer, delivering products of exceptional quality. Currently, I focus my expertise on UX/UI
                             and product design, accumulating over two years of solid and successful experience in this field.
+                            <br />
                             <br />
                             Seeking to enhance my skills, I participated in the renowned UX Unicórnio course by Leandro Rezende and Google's UX Designer
                             Professional course, where I gained expertise in conducting comprehensive field research and creating impactful solutions for web
@@ -26,6 +27,7 @@ export function About() {
                             hands-on experience with the agile SCRUM process, ensuring continuous deliveries and systematic validation of all hypotheses and
                             proposed solutions. Additionally, I played a key role in product conceptualization, skillfully navigating between business needs and
                             user demands. I conducted a series of in-depth user tests to validate each stage of the product development process.
+                            <br />
                             <br />
                             These experiences have given me a broad understanding of how to align business goals with user expectations, while continuously
                             refining my ability to deliver user-centered design solutions. I am excited to apply this expertise and ongoing dedication to drive
