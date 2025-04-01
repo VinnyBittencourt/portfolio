@@ -43,7 +43,9 @@ export function Home() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 grid-flow-row gap-8 px-4 sm:px-0">
                         {/* Card */}
                         <Link to="/portfolio/projects/Igu" className="flex flex-col gap-4 justify-start group transition-all duration-300">
-                            <img src={igulogo} alt="logo" className="rounded-xl shadow-(--container-shadow)" />
+                            <div className="w-full aspect-[16/9]">
+                                <img src={igulogo} alt="logo igu" className="w-full h-full object-cover rounded-xl shadow-(--container-shadow)" />
+                            </div>
                             <div className="flex justify-between items-center pr-1">
                                 <div className="flex flex-col gap-2">
                                     <div className="flex flex-wrap gap-2 w-full mt-0 md:mt-2">
@@ -64,7 +66,10 @@ export function Home() {
                         </Link>
 
                         <Link to="/portfolio/projects/futgpt" className="flex flex-col gap-4 justify-start group transition-all duration-300">
-                            <img src={futgptthumb} alt="logo" className="rounded-xl shadow-(--container-shadow)" />
+                            <div className="w-full aspect-[16/9]">
+                                <img src={futgptthumb} alt="logo futgpt" className="w-full h-full object-cover rounded-xl shadow-(--container-shadow)" />
+                            </div>
+
                             <div className="flex justify-between items-center pr-1">
                                 <div className="flex flex-col gap-2">
                                     <div className="flex flex-wrap gap-2 w-full mt-0 md:mt-2">
@@ -85,7 +90,10 @@ export function Home() {
                         </Link>
 
                         <Link to="/portfolio/projects/MinutaDigital" className="flex flex-col gap-4 justify-start group transition-all duration-300">
-                            <img src={minutathumb} alt="logo" className="rounded-xl shadow-(--container-shadow)" />
+                            <div className="w-full aspect-[16/9]">
+                                <img src={minutathumb} alt="logo minuta" className="w-full h-full object-cover rounded-xl shadow-(--container-shadow)" />
+                            </div>
+
                             <div className="flex justify-between items-center pr-1">
                                 <div className="flex flex-col gap-2">
                                     <div className="flex flex-wrap gap-2 w-full mt-0 md:mt-2">
@@ -106,7 +114,13 @@ export function Home() {
                         </Link>
 
                         <Link to="/portfolio/projects/MonitoramentoBox" className="flex flex-col gap-4 justify-start group transition-all duration-300">
-                            <img src={monitoramentothumb} alt="logo" className="rounded-xl shadow-(--container-shadow)" />
+                            <div className="w-full aspect-[16/9]">
+                                <img
+                                    src={monitoramentothumb}
+                                    alt="logo Monitoramento"
+                                    className="w-full h-full object-cover rounded-xl shadow-(--container-shadow)"
+                                />
+                            </div>
                             <div className="flex justify-between items-center pr-1">
                                 <div className="flex flex-col gap-2">
                                     <div className="flex flex-wrap gap-2 w-full mt-0 md:mt-2">
