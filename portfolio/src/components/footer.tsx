@@ -31,24 +31,31 @@ export function Footer() {
                     <div className="flex space-x-4">
                         <Link
                             to="mailto:vinisataides@gmail.com"
+                            aria-label="Email Vinicius Ataides"
                             className="bg-(--background-color-dark-medium) rounded-full p-3 shadow-(--container-shadow) size-fit"
                         >
                             <Mail className="text-white" size={24} />
                         </Link>
+
                         <Link
                             to="https://www.behance.net/viniciusataides"
+                            aria-label="Behance profile"
                             className="bg-(--background-color-dark-medium) rounded-full p-3 shadow-(--container-shadow) size-fit"
                         >
                             <img src={Behance} alt="Behance Logo" className="w-[24px]" />
                         </Link>
+
                         <Link
                             to="https://www.linkedin.com/in/vinnybittencourt/"
+                            aria-label="LinkedIn profile"
                             className="bg-(--background-color-dark-medium) rounded-full p-3 shadow-(--container-shadow) size-fit"
                         >
                             <Linkedin className="text-white" size={24} />
                         </Link>
+
                         <Link
                             to="https://dribbble.com/VinnyAtaides"
+                            aria-label="Dribbble profile"
                             className="bg-(--background-color-dark-medium) rounded-full p-3 shadow-(--container-shadow) size-fit"
                         >
                             <Dribbble className="text-white" size={24} />
