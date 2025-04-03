@@ -24,7 +24,7 @@ export function Contact() {
                                     <div className="bg-white rounded-full p-3 shadow-(--container-shadow) size-fit">
                                         <Mail className="text-(--text-dark)" size={24} />
                                     </div>
-                                    <p className="">vinisataides@gmail.com</p>
+                                    <p className="text-sm md:text-base">vinisataides@gmail.com</p>
                                 </div>
                             </a>
 
@@ -74,7 +74,7 @@ export function Contact() {
                         className="flex items-center justify-center h-full w-full bg-contain bg-no-repeat bg-center min-h-[416px] mt-12"
                         style={{ backgroundImage: `url(${backgroundContact})` }}
                     >
-                        <h4 className="text-5xl font-semibold  text-start p-8">
+                        <h4 className="text-4xl lg:text-5xl font-semibold  text-start p-8">
                             "A user interface is like a joke. If you have to explain it, it’s not that good."
                             <br /> <span className="text-lg font-light">– Martin LeBlanc</span>
                         </h4>
