@@ -8,9 +8,9 @@ export function About() {
             <Header />
             <div className="flex-grow">
                 {/* Hero Section */}
-                <section className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 mt-4 sm:mt-12 mb-24 mx-auto w-full px-4 sm:px-8 2xl:max-w-[1440px] lg:max-w-[1218px]">
+                <section className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 mt-4 sm:mt-12 mb-24 mx-auto w-full px-4 lg:px-0 sm:px-8 2xl:max-w-[1440px] lg:max-w-[1218px]">
                     {/* Text Content */}
-                    <div className="flex flex-col gap-8 max-w-[750px] mt-6 md:mt-0 md:ml-8">
+                    <div className="flex flex-col gap-8 max-w-[750px]">
                         <h1 className="text-5xl w-full text-start font-semibold mb-2">About me</h1>
                         <p className="text-base text-start ">
                             With a strong foundation in Information Systems and over five years of experience in technology, I’ve built a
@@ -41,7 +41,7 @@ export function About() {
                 </section>
 
                 {/* Design Process Section */}
-                <section className="flex flex-col items-start justify-between mt-12 mb-24 mx-auto w-full px-4 sm:px-8 2xl:max-w-[1440px] lg:max-w-[1218px] gap-8">
+                <section className="flex flex-col items-start justify-between mt-12 mb-24 mx-auto w-full px-4 lg:px-0 sm:px-8 2xl:max-w-[1440px] lg:max-w-[1218px] gap-8">
                     {/* Title */}
                     <h1 className="text-5xl text-start md:text-center font-semibold mb-2">My design process</h1>
 
